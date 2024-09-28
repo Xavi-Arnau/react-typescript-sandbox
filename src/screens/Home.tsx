@@ -21,7 +21,7 @@ const Home = () => {
       <h1 className="text-5xl p-4">React Typescript Sandbox</h1>
       <p className="italic p-4">Let's play!</p>
       <div className="flex flex-row flex-wrap">
-        {products.map((product: Product) => (
+        {products.map((product) => (
           <div
             className="flex flex-col w-1/5 p-4 justify-center items-center"
             key={product.title}
